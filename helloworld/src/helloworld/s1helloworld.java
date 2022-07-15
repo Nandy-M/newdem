@@ -1,6 +1,6 @@
 package helloworld;
 
-public class helloworld {
+public class s1helloworld {
      public static void main(String args[])
      {
     	 System.out.println("I am nandhini");
