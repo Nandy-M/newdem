@@ -1,9 +1,8 @@
-package project1;
+package calculator;
 
 import java.util.Scanner;
 
 public class arithmeticCalci {
-
 	public static void main(String[] args) {
 		double num1, num2, result = 0, n;
 		while (true) {
