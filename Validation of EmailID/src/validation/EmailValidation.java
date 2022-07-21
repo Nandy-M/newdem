@@ -14,23 +14,16 @@ public class EmailValidation {
 		email.add("santhiya.sri@gmail.com");
 		System.out.println("ENTER USER EMAIL ID:");
 		String userId = s.nextLine();
-		if (userId == null) {
-			System.out.println("You didn't enter the emailID");
-			return;
-		}
-
-		for (String i : email) // for(int i=0;i<email.size();i++)
-		{
+		//check user mail id is found or not
 			if (email.contains(userId)) {
-				System.out.println("\n");
+				System.out.println();
 				System.out.println("email ID " + userId + " found");
-				break;
-			} else {
+			} 
+			else {
 				System.out.println("email ID " + userId + " Not found");
-				break;
 
 			}
 		}
 	}
 
-}
+
