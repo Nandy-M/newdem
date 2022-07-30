@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class arithmeticCalci {
 	public static void main(String[] args) {
-		double num1, num2, result = 0, n;
-		while (true) {
+		double num1, num2, result = 0, n;//define two num as double and initialize result as 0
 			Scanner s = new Scanner(System.in);
 			System.out.println("ARITHMETIC CALCULATOR");
 			System.out.println();
@@ -13,6 +12,7 @@ public class arithmeticCalci {
 			num1 = s.nextDouble();
 			System.out.println("ENTER SECOND NO");
 			num2 = s.nextDouble();
+			while(true) {
 			System.out.println("Press 1 to ADD");
 			System.out.println("Press 2 to SUBTRACT");
 			System.out.println("Press 3 to MULTIPLY");
@@ -28,6 +28,7 @@ public class arithmeticCalci {
 			} else if (n == 2) {
 				result = num1 - num2;
 				System.out.println("The Difference is " + result);
+				
 
 			} else if (n == 3) {
 				result = num1 * num2;
@@ -43,12 +44,13 @@ public class arithmeticCalci {
 
 			} else if (n == 6) {
 				break;
+		
 			} else {
 				System.out.println("Invalid operation");
 
 			}
 
 		}
+			System.out.println("Program successfully executed");
 	}
-
 }

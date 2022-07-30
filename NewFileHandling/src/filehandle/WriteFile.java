@@ -8,8 +8,9 @@ public class WriteFile {
 		String message="I am NandhiniMurugesan.I hale from Cuddalore.";
 	      
 	    try {  
+	    	//create a filewriter object
 	        FileWriter fwrite = new FileWriter("F:\\newfile.txt");
-	        // writing the content into the FileOperationExample.txt file  
+	        //Write the content to the file using write()
 	        fwrite.write(message);   
 	   
 	        // Closing the stream  
